@@ -7,7 +7,7 @@
     "build": "webpack --mode production",
     "dev": "webpack-dev-server --content-base=public --open",
     "lint": "eslint .",
-    "start": "run-s dev",
+    "start": "run-s dev"
   },
    "author": {
     "name": "BittLabs",

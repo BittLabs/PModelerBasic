@@ -1,0 +1,32 @@
+{
+  "name": "ProcessModelerBasic",
+  "version": "0.3.0",
+  "description": "A simple Modeler ",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BittLabs/ProcessModelerBasic"
+  },
+  "keywords": [
+    "bpmn-js",
+    "diagram-js"
+  ],
+  "author": {
+    "name": "BittLabs",
+    "url": "https://github.com/BittLabs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-plugin-bpmn-io": "^0.10.0"
+  },
+  "dependencies": {
+    "diagram-js": "^5.0.2",
+    "inherits": "^2.0.4",
+    "min-dash": "^3.5.2",
+    "show-toast": "^1.1.4"
+  }
+}

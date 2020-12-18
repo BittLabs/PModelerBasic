@@ -1,6 +1,6 @@
-# bpmn-js-honkify  Example
+# Process Modeler Basic
 
-![](../resources/screencast.gif)
+
 
 ## Building
 

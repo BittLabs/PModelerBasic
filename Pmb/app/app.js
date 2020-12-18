@@ -1,23 +1,10 @@
 import $ from 'jquery';
 
 import BpmnModeler from 'bpmn-js/lib/Modeler';
-
-import honkifyModule from 'bpmn-js-honkify';
-
 import diagramXML from '../resources/newDiagram.bpmn';
 
 var container = $('#js-drop-zone');
 
-// var modeler = new BpmnModeler({
-//   container: '#js-canvas',
-//   keyboard: {
-//     bindTo: document
-//   },
-//   additionalModules: [
-//     honkifyModule
-//   ]
-// });
-// FABIO disabilitato Honkify.
 var modeler = new BpmnModeler({
   container: '#js-canvas',
   keyboard: {
